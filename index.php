@@ -62,6 +62,7 @@ $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/all.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
+ <link href="Home/css/style.css" rel="stylesheet" >
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -70,6 +71,146 @@ $categorias = $categoriaSql->fetchAll(PDO::FETCH_ASSOC);
 
     <!-- Contenido -->
     <main class="flex-shrink-0">
+        
+<!--Inicio-->
+
+    <div class="introduction">
+            <div class="text-main">
+                <h1>ByMe</h1>
+                <h4>Planner</h4>
+            </div>
+    </div>
+
+
+
+    <!-- slider -->
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="home/image/boda playa.jpeg">
+                <div class="content">
+                    <p>design</p>
+                    <h2>Slider 01</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="home/image/celebrar.jpeg">
+                <div class="content">
+                    <p>design</p>
+                    <h2>Slider 02</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="home/image/boda.webp">
+                <div class="content">
+                    <p>design</p>
+                    <h2>Slider 03</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src=home/image/meeting.jpg">
+                <div class="content">
+                    <p>design</p>
+                    <h2>Slider 04</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="home/image/bodaaa.jpg">
+                <div class="content">
+                    <p>design</p>
+                    <h2>Slider 05</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="home/image/boda playa.jpeg">
+                <div class="content">
+                    Name Slider
+                </div>
+            </div>
+            <div class="item">
+                <img src="home/image/celebrar.jpeg">
+                <div class="content">
+                    Name Slider
+                </div>
+            </div>
+            <div class="item">
+                <img src="home/image/boda.webp">
+                <div class="content">
+                    Name Slider
+                </div>
+            </div>
+            <div class="item">
+                <img src="home/image/meeting.jpg">
+                <div class="content">
+                    Name Slider
+                </div>
+            </div>
+            <div class="item">
+                <img src="home/image/bodaaa.jpg">
+                <div class="content">
+                    Name Slider
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--DESCRIPCION viva guatemala-->
+    <div class="descriptions">
+            
+       <div class="text-descrip"> Una pequeña descripcion ¿De quienes somos?</div>
+
+        <div class="description">
+            <i class="icon fas fa-chart-line"></i>
+            <h3>Nuestro Propósito</h3>
+            <p>Estamos comprometidos a proporcionar soluciones innovadoras que impulsen el crecimiento y el éxito de nuestros clientes.</p>
+        </div>
+        <div class="description">
+            <i class="icon fas fa-lightbulb"></i>
+            <h3>Nuestra Misión</h3>
+            <p>Transformar ideas en realidad, brindando servicios de calidad que superen las expectativas.</p>
+        </div>
+        <div class="description">
+            <i class="icon fas fa-handshake"></i>
+            <h3>Nuestro Compromiso</h3>
+            <p>Establecer relaciones sólidas y duraderas con nuestros clientes, basadas en la confianza y la transparencia.</p>
+        </div>
+    </div>
+    
+    
+    <!--Scripts-->
+    
+    <script src="home/scripts/app.js"></script>
+    <script src="home/scripts/nav.js"></script>
         <div class="container p-3">
             <div class="row">
                 <div class="col-12 col-md-3 col-lg-3">

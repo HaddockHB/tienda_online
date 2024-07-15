@@ -2,8 +2,6 @@
 
 /**
  * Pantalla para mostrar el formulario de configuraciones
- * Autor: Marco Robles
- * Web: https://github.com/mroblesdev
  */
 
 require '../config/config.php';
