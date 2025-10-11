@@ -16,4 +16,4 @@ $con = $db->conectar();
 
 echo validaToken($id, $token, $con);
 
-
+print('Esta es una nueva funcionalidad en la rama nueva-funcionalidad')
