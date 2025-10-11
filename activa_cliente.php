@@ -15,3 +15,5 @@ $db = new Database();
 $con = $db->conectar();
 
 echo validaToken($id, $token, $con);
+
+
